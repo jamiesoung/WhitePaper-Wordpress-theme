@@ -1,0 +1,354 @@
+/*
+Theme Name: WhitePaper
+Theme URI: http://www.tinghaige.com/
+Author: 听海
+Author URI: http://www.tinghaige.com/
+*/
+
+*{
+	font-size:12px;font-family:'microsoft yahei'
+}
+a{
+	color: #000000;
+	text-decoration: none;
+}
+a:hover{
+	color: #0090DA;
+	text-decoration: none;
+}
+a:visited{
+	color: #000000;
+	text-decoration: none;
+}
+body{
+	background: #FFFFFF;
+}
+h1 { font-size: 40px; line-height: 44px; }
+h2 { font-size: 32px; line-height: 40px; }
+h3 { font-size: 28px; line-height: 33px; }
+h4 { font-size: 24px; line-height: 27px; }
+h5 { font-size: 20px; line-height: 24px; }
+h6 { font-size: 16px; line-height: 20px; }
+h1, h2, h3, h4, h5, h6 {
+	font-family: 			'Yanone Kaffeesatz', sans-serif;
+	font-weight: 			normal; 
+	margin: 					20px 0 10px 0;
+}
+/*wrapper*/
+.wrapper{
+	background: #FFFFFF;
+}
+.topNav{
+	background: #F7F7F7;
+	width: 100%;
+	border-top:1px #CCCCCC solid;
+	border-bottom:1px #CCCCCC solid;
+	height: 40px;
+	line-height: 40px;
+	color: #666666;
+}
+.topNavImg{
+	display: 	inline-block; 
+	width: 		12px; 
+	height: 	12px;
+	margin: 	15px 0;
+	background-image: 	url(img/public.png) ;
+	background-position: -36px -108px;
+	float: left;
+}
+.topNav a{
+	color: #666666;
+}
+
+/*header*/
+#sitetitle{
+	color: #0090D3;
+	font-size: 50px ;
+	font-weight: bold;
+}
+.header h2{
+	float: left;
+	margin-top:0px;
+}
+.topMenuWarp{
+position: 				relative; 
+
+}
+.topMenu{
+
+list-style-type: 		none; 
+	line-height: 			33px; 
+height:33px;
+text-align:center;
+
+}
+.topMenu a{
+	color:#666666;
+font-size:25px;
+
+}
+.weibo, .rss, .aboutme{
+	float:right;
+margin-left:0px;
+padding:10px;
+}
+.weibo, .rss{
+	border-right: 1px #ccc solid;
+}
+.topMenu a:hover{
+	color: #0090DA;
+	text-decoration: none;
+}
+
+/*articleTab*/
+.articleTab{
+	text-align: center;	
+	background: #E6E6E6;
+	height: 50px;
+	line-height: 50px;
+}
+/*main*/
+.postTittle{
+	
+}
+.postTittle h2{
+	margin-top: 20px;
+}
+.postTittle a{
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+.postTittle a:hover{
+    color: #0090DA;
+    text-decoration: none;
+    font-weight: bold;
+}
+.postMeta{
+	height: 20px;
+	line-height: 20px;
+	margin: 5px 0;
+	border-bottom: 1px #ccc solid;
+}
+.postMeta a{
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+.postMeta a:hover{
+    color: #666666;
+    text-decoration: none;
+    font-weight: bold;
+}
+.postContent{
+	font-size: 16px;
+}
+.postMetaBottom{
+	margin: 10px 20px 130px 20px;
+	font: 15px;
+}
+.postMetaBottom a{
+    color: #000000;
+    text-decoration: none;
+    margin: 5px; 
+}
+.postMetaBottom a:hover{
+    color: #FFFFFF;
+    text-decoration: none;
+    background: #0090DA;
+}
+.categoryImg{
+	display: 	inline-block; 
+	width: 		12px; 
+	height: 	12px;
+	margin: 	15px 0;
+	background-image: 	url(img/public.png);
+	float: left;
+}
+.categoryImg{
+	background-position: -12px -228px;
+}
+.category a{
+	float: left;
+	padding: 4px 8px;
+}
+.category a:hover{
+	float: left;
+	padding: 4px 8px;
+}
+.more a{
+	float: right;
+
+	padding: 4px 8px;
+}
+.more a:hover{
+	float: right;
+
+	padding: 4px 8px;
+}	
+.pageNav{
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+}
+.pageNav {
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	color: #0090D3;
+	border-top: 1px #CCCCCC solid;
+}
+.pageNav a{
+	text-align: center;
+	font-size: 15px;
+	font-weight: normal;
+	border-left: 1px #CCCCCC solid;
+	border-right: 1px #CCCCCC solid;
+	border-bottom: 1px #CCCCCC solid;
+	margin-left: 5px;
+	padding: 1px 5px;
+}
+.pageNav a:hover{
+	text-align: center;
+	font-size: 15px;
+	font-weight: normal;
+	color: #FFFFFF;
+	background: #0090D3;
+	border-left: 1px #CCCCCC solid;
+	border-right: 1px #CCCCCC solid;
+	border-bottom: 1px #CCCCCC solid;
+	margin-left: 5px;
+}
+/*sideBar*/
+.sideBar h3{
+	margin: 10px 10px;
+	color: #0090d3;
+	font-size:25px;
+}
+#searchForm{
+	text-align:center;
+margin:20px 0px;
+}
+.randPostImg, .categoryListImg, .friendLinksImg{
+	display: 			inline-block;
+	width: 				24px;
+	height: 			24px;
+	background-color: #ffffff;
+	background-image: url( img/public.png );
+	float: left;
+	margin: 5px 15px;
+}
+.headImg{
+	float: left;
+	margin:10px 5px;
+}
+.selfInfo{
+	float: left;
+	margin: 7px 5px;
+	line-height: 30px;
+	height: 30px;
+}
+.sideBar li{
+    list-style: none;
+
+}
+.randPostImg{ 
+	background-position: -120px -144px
+}
+.categoryListImg{ 
+	background-position: -120px -168px
+}
+.friendLinksImg{ 
+	background-position: -120px -0px
+}
+#randPost:hover .randPostImg{ 
+	background-position: -96px -144px
+}
+#categoryList:hover .categoryListImg{ 
+	background-position: -96px -168px
+}
+#friendLinks:hover .friendLinksImg{ 
+	background-position: -96px -0px
+}
+#randPost ul li:hover{
+	background: #F0F0F0;
+	border-bottom:2px #000 dashed;
+}
+#randPost:hover a:link{
+	color: #0090DA;
+}
+#randPost:hover a:visited{
+	color: #0090DA;
+}
+#categoryList ul li:hover{
+	background: #F0F0F0;
+	border-bottom:2px #000 dashed;
+}
+#categoryList:hover a:link{
+	color: #0090DA;
+}
+#categoryList:hover a:visited{
+	color: #0090DA;
+}
+#friendLinks ul li:hover{
+	background: #F0F0F0;
+	border-bottom:2px #000 dashed;
+}
+#friendLinks:hover a:link{
+	color: #0090DA;
+}
+#friendLinks:hover a:visited{
+	color: #0090DA;
+}
+#randPost:hover h3{
+	margin: 10px 10px;
+	color: #0090DA;
+}
+#friendLinks:hover h3{
+	margin: 10px 10px;
+	color: #0090DA;
+}
+#categoryList:hover h3{
+	margin: 10px 10px;
+	color: #0090DA;
+}
+.sideBar ul li{
+    padding: 10px 0 10px 10px;
+    border-bottom: 2px dashed #CCCCCC;
+    font-size: 15px;
+    list-style-type: disc;
+}
+.categoryList {
+}
+/*footer*/
+.footer{
+	color: #666666;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	background: #FFFFFF;
+}
+/**/
+blockquote {
+background:#f9f9f9;
+border-left:10px solid #ccc;
+margin:1.5em 10px;
+padding:.5em 10px;
+quotes:"\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+color:#ccc;
+content:open-quote;
+font-size:4em;
+line-height:.1em;
+margin-right:.25em;
+vertical-align:-.4em;
+}
+blockquote p {
+display:inline;
+}
+/**/
+
+
+   
+

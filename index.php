@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <div class="container_12 wrapper" >      
      <div class="container_12 ">
-         <div class="grid_8 main">
+         <div class="grid_8 main alpha omega">
                 <!--<div class="container_8 articleTab">
                      最新发布-----------评论最多-----------随机文章
                 </div>-->    
@@ -9,7 +9,7 @@
                 <?php if (have_posts()) : ?>
                 <?php while (have_posts()) : the_post(); ?>
 
-                <div class="container_8 postTittle">
+                <div class="container_8 postTittle" >
                     <h2><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
                 </div>
                 <div class="container_8 postMeta">

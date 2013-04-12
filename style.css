@@ -139,13 +139,24 @@ padding:10px;
     color: #666666;
     text-decoration: none;
     font-weight: bold;
+
 }
 .postContent{
+	font-size: 16px;
+}
+.postContent a{
+	color:#0090DA;
+	font-size: 16px;
+}
+.postContent a:hover{
+	color:#0090DA;
+	text-decoration:underline;
 	font-size: 16px;
 }
 .postMetaBottom{
 	margin: 10px 20px 130px 20px;
 	font: 15px;
+border-radius: 10px;
 }
 .postMetaBottom a{
     color: #000000;
@@ -156,6 +167,11 @@ padding:10px;
     color: #FFFFFF;
     text-decoration: none;
     background: #0090DA;
+border-radius: 10px;
+   -moz-transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
 }
 .categoryImg{
 	display: 	inline-block; 
@@ -197,6 +213,7 @@ padding:10px;
 	font-weight: bold;
 	color: #0090D3;
 	border-top: 1px #CCCCCC solid;
+
 }
 .pageNav a{
 	text-align: center;
@@ -205,8 +222,9 @@ padding:10px;
 	border-left: 1px #CCCCCC solid;
 	border-right: 1px #CCCCCC solid;
 	border-bottom: 1px #CCCCCC solid;
+	border-radius: 0 0 8px 8px;
 	margin-left: 5px;
-	padding: 1px 5px;
+	padding: 1px 8px;
 }
 .pageNav a:hover{
 	text-align: center;
@@ -217,6 +235,7 @@ padding:10px;
 	border-left: 1px #CCCCCC solid;
 	border-right: 1px #CCCCCC solid;
 	border-bottom: 1px #CCCCCC solid;
+	border-radius: 0 0 8px 8px ;
 	margin-left: 5px;
 }
 /*sideBar*/
@@ -351,4 +370,3 @@ display:inline;
 
 
    
-

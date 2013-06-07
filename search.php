@@ -5,7 +5,7 @@
               
                 <?php if (have_posts()) : ?>
                 <?php while (have_posts()) : the_post(); ?>
-                <div class="container_8 postTittle">
+                <div class="container_8 postTitle">
                     <h2><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
                 </div>
                 <div class="container_8 postMeta">
@@ -20,7 +20,7 @@
                 </div>
                 <?php endwhile; ?>
                 <?php else : ?>
-                 <div class="container_8 postTittle">
+                 <div class="container_8 postTitle">
                     <h2>很抱歉，没能找到你要搜索的内容</h2>
                 </div>
                        <div id="searchForm"> 

@@ -9,7 +9,7 @@
                 <?php if (have_posts()) : ?>
                 <?php while (have_posts()) : the_post(); ?>
 
-                <div class="container_8 postTittle" >
+                <div class="container_8 postTitle" >
                     <h2><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
                 </div>
                 <div class="container_8 postMeta">

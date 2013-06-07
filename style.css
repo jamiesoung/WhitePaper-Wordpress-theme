@@ -1,10 +1,10 @@
+@charset "utf-8";
 /*
 Theme Name: WhitePaper
 Theme URI: http://www.tinghaige.com/
 Author: 听海
 Author URI: http://www.tinghaige.com/
 */
-
 *{
 	font-size:12px;font-family:'microsoft yahei'
 }
@@ -19,6 +19,9 @@ a:hover{
 a:visited{
 	color: #000000;
 	text-decoration: none;
+}
+p{
+        text-indent: 2em;
 }
 body{
 	background: #FFFFFF;
@@ -108,18 +111,18 @@ padding:10px;
 	line-height: 50px;
 }
 /*main*/
-.postTittle{
+.postTitle{
 	
 }
-.postTittle h2{
+.postTitle h2{
 	margin-top: 20px;
 }
-.postTittle a{
+.postTitle a{
     color: #000000;
     text-decoration: none;
     font-weight: bold;
 }
-.postTittle a:hover{
+.postTitle a:hover{
     color: #0090DA;
     text-decoration: none;
     font-weight: bold;
@@ -143,6 +146,7 @@ padding:10px;
 }
 .postContent{
 	font-size: 16px;
+        line-height:30px;
 }
 .postContent a{
 	color:#0090DA;
@@ -154,9 +158,11 @@ padding:10px;
 	font-size: 16px;
 }
 .postMetaBottom{
-	margin: 10px 20px 130px 20px;
+	margin: 10px 20px 100px 20px;
 	font: 15px;
-border-radius: 10px;
+        -moz-border-radius:10px;
+        -webkit-border-radius:10px;
+        border-radius: 10px;
 }
 .postMetaBottom a{
     color: #000000;
@@ -167,8 +173,10 @@ border-radius: 10px;
     color: #FFFFFF;
     text-decoration: none;
     background: #0090DA;
-border-radius: 10px;
-   -moz-transition: all 0.5s ease-in;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius: 10px;
+    -moz-transition: all 0.5s ease-in;
     -webkit-transition: all 0.5s ease-in;
     -o-transition: all 0.5s ease-in;
     transition: all 0.5s ease-in;
@@ -222,6 +230,8 @@ border-radius: 10px;
 	border-left: 1px #CCCCCC solid;
 	border-right: 1px #CCCCCC solid;
 	border-bottom: 1px #CCCCCC solid;
+        -moz-border-radius:0 0 8px 8px;
+        -webkit-border-radius:0 0 8px 8px;
 	border-radius: 0 0 8px 8px;
 	margin-left: 5px;
 	padding: 1px 8px;
@@ -235,7 +245,9 @@ border-radius: 10px;
 	border-left: 1px #CCCCCC solid;
 	border-right: 1px #CCCCCC solid;
 	border-bottom: 1px #CCCCCC solid;
-	border-radius: 0 0 8px 8px ;
+        -moz-border-radius:0 0 8px 8px;
+        -webkit-border-radius:0 0 8px 8px;
+        border-radius: 0 0 8px 8px;
 	margin-left: 5px;
 }
 /*sideBar*/
@@ -256,6 +268,7 @@ margin:20px 0px;
 	background-image: url( img/public.png );
 	float: left;
 	margin: 5px 15px;
+        transition:all .3s;
 }
 .headImg{
 	float: left;
@@ -349,23 +362,16 @@ margin:20px 0px;
 }
 /**/
 blockquote {
-background:#f9f9f9;
-border-left:10px solid #ccc;
-margin:1.5em 10px;
-padding:.5em 10px;
-quotes:"\201C""\201D""\2018""\2019";
+	color: #777777;
+	border-left: 5px solid #dddddd;
+	margin: 15px 30px 0px 10px;
+	padding-left: 20px;
 }
-blockquote:before {
-color:#ccc;
-content:open-quote;
-font-size:4em;
-line-height:.1em;
-margin-right:.25em;
-vertical-align:-.4em;
-}
+
 blockquote p {
-display:inline;
+
 }
+
 /**/
 
 
